@@ -151,7 +151,6 @@ More rigorous ML evaluation, secure AI application design, adversarial testing, 
 <p align="center">
   <a href="https://github.com/dedessoru">GitHub</a> &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/dedessoru/">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="mailto:dedessoru@proton.me">Email</a>
 </p>
 
 <p align="center">
