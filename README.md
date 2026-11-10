@@ -1,163 +1,151 @@
-<!-- Profile README for dedessoru -->
+<!--
+  DEDESSORU / 08
+  A field notebook, not a scoreboard.
+  Everything here is GitHub-native Markdown / supported HTML.
+  The only images are the original handwritten signatures at the very end.
+-->
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.png">
-    <img src="./assets/hero-dark.png" width="100%" alt="DEDESSORU / 08 — AI, ML and cybersecurity">
-  </picture>
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://github.com/dedessoru?tab=repositories"><img src="https://img.shields.io/badge/Repositories-161b22?style=flat-square&logo=github&logoColor=white" alt="Repositories"></a>
-  <a href="https://www.linkedin.com/in/dedessoru/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <img src="https://img.shields.io/badge/Kyiv%2C%20Ukraine-161b22?style=flat-square&logo=googlemaps&logoColor=white" alt="Kyiv, Ukraine">
-</p>
+<sub>FIELD NOTES — № 08 &nbsp; / &nbsp; KYIV, UKRAINE</sub>
 
-<p align="center">
-  <b>Applied Mathematics @ Igor Sikorsky Kyiv Polytechnic Institute</b><br>
-  <sub>Building intelligent systems · studying how systems fail · moving toward AI red teaming</sub>
-</p>
+<h1>08 / DEDESSORU</h1>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/signal-dark.gif">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/signal-light.gif">
-    <img src="./assets/signal-dark.gif" width="88%" alt="Build, break, understand">
-  </picture>
-</p>
+<p><strong>BUILD SYSTEMS. BREAK ASSUMPTIONS. UNDERSTAND BOTH.</strong></p>
 
-## `00 // THE SHORT VERSION`
+<p><code>APPLIED MATHEMATICS</code> &nbsp; · &nbsp; <code>AI / ML</code> &nbsp; · &nbsp; <code>CYBERSECURITY</code></p>
 
-I'm **Leks** — an Applied Mathematics student working at the intersection of **AI/ML and cybersecurity**.
+<p><em>Aspiring AI Red Team Researcher</em></p>
 
-I like taking an idea from hypothesis to working system, then stress-testing the assumptions underneath it. Right now that means building ML and LLM applications, practicing in authorized security labs, and learning how to evaluate AI systems more adversarially.
+<p><sub>Oleksandr Zavadskyi · Igor Sikorsky Kyiv Polytechnic Institute</sub></p>
 
-> **Build. Break. Understand.**
+<p><a href="#work"><b>Work</b></a> &nbsp; / &nbsp; <a href="#notes"><b>Lab notes</b></a> &nbsp; / &nbsp; <a href="https://www.linkedin.com/in/dedessoru/"><b>LinkedIn</b></a></p>
 
-## `01 // WHAT I'M EXPLORING`
+</div>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+---
 
-### Build systems
+### `00 / ABOUT`
 
-- Local-first AI assistants
-- Retrieval-augmented generation
-- Recommendation and ranking systems
-- Applied ML and computer vision
-- Small tools that turn experiments into usable software
+I'm **Oleksandr**, an Applied Mathematics student exploring the space between **machine learning** and **offensive security**.
 
-</td>
-<td width="50%" valign="top">
+I build ML and LLM-based systems, work through authorized penetration-testing labs and CTFs, and study what happens when the assumptions behind a system no longer hold. My long-term direction is **AI red teaming** — investigating the security of intelligent systems, not just developing them.
 
-### Test systems
+> **The interesting part isn't whether something works. It's understanding why — and where it stops.**
 
-- CTFs and authorized training labs
-- Network and service enumeration
-- Web application security fundamentals
-- Threat modeling for AI applications
-- Failure modes across models, prompts, tools and data
+### `01 / TWO SIDES OF THE SAME PROBLEM`
 
-</td>
-</tr>
-</table>
-
-## `02 // SELECTED WORK`
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### [Eidolon](https://github.com/dedessoru/eidolon)
-
-A local AI companion exploring **memory, retrieval, personas and tool use** with Python, Ollama, ChromaDB and Flet.
-
-`Python` `RAG` `Ollama` `ChromaDB`
-
-</td>
-<td width="50%" valign="top">
-
-### [Anix](https://github.com/dedessoru/anix)
-
-A Rust project and a place to experiment with systems programming, architecture and implementation details close to the metal.
-
-`Rust`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [Fatda Labs](https://github.com/dedessoru/fatda_labs)
-
-Notebook-based experimentation across data, models and applied machine learning.
-
-`Jupyter` `ML`
-
-</td>
-<td width="50%" valign="top">
-
-### [Markov Melody](https://github.com/dedessoru/markovmelody)
-
-A generative music experiment using Markov chains — simple probabilistic ideas, audible output.
-
-`Markov chains` `Generative systems`
-
-</td>
-</tr>
-</table>
-
-[See all repositories →](https://github.com/dedessoru?tab=repositories)
-
-## `03 // TOOLKIT`
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python,rust,java,cpp,linux,git,docker,fastapi,pytorch,sklearn" alt="Python, Rust, Java, C++, Linux, Git, Docker, FastAPI, PyTorch and scikit-learn">
-</p>
-
-| Area | Tools and concepts |
+| **BUILD / 01** | **BREAK / 02** |
 | :-- | :-- |
-| **AI / ML** | PyTorch · scikit-learn · Pandas · NumPy · computer vision · recommendation systems |
-| **LLM applications** | RAG · vector search · reranking · function calling · local models · Ollama |
-| **Security labs** | Nmap · Gobuster · Metasploit · Burp Suite · Hack The Box · TryHackMe |
-| **Systems** | Linux · Docker · FastAPI · TCP/IP · HTTP · DNS · SSH · SMB |
+| **Artificial intelligence & ML** | **Cybersecurity & offensive security** |
+| Models, data pipelines, recommendation systems, LLM applications, RAG. | Network reconnaissance, service enumeration, exploitation labs, CTF challenges. |
+| *How do we make a system behave as intended?* | *Where can its behavior diverge from what we expect?* |
 
-## `04 // CURRENT DIRECTION`
+<a id="work"></a>
+### `02 / SELECTED WORK`
 
-I'm building toward **AI red team research**: understanding where models, prompts, retrieval pipelines, tools and surrounding infrastructure become unreliable or exploitable — and turning those observations into reproducible experiments.
+**[EIDOLON ↗](https://github.com/dedessoru/eidolon)** &nbsp; `AI` · `LOCAL MODELS` · `RETRIEVAL`
 
-My working loop is deliberately simple:
+An experimental AI assistant project exploring local models, retrieval and memory-oriented workflows. A place to test ideas around how AI applications organize and use context.
+
+**APPLIED ML / HACKATHON WORK** &nbsp; `MACHINE LEARNING` · `DATA`
+
+Projects involving **fraud detection**, **recommendation systems** and **computer vision**. These are hackathon projects from my experience; not every project has a public repository here.
+
+**SECURITY / LAB PRACTICE** &nbsp; `HTB` · `TRYHACKME` · `CTF`
+
+Self-directed, hands-on practice with Linux, networks, service discovery and exploitation in authorized training environments. I have also taken part in a CTF focused on critical-infrastructure protection.
+
+### `03 / SELECTED MILESTONES`
+
+| | |
+| :-- | :-- |
+| **03** | **3rd place** — Open Mathematics Olympiad, Taras Shevchenko National University of Kyiv |
+| **CTF** | Kyiv International Critical Infrastructure Protection CTF, 2025 — participant |
+| **ML** | Collaborative hackathon work in applied machine learning and AI development |
+
+<a id="notes"></a>
+### `04 / LAB NOTES`
+
+<details>
+<summary><b>NOTE 001 — Tools I've worked with</b></summary>
+
+<br>
+
+| Area | Tools and technologies |
+| :-- | :-- |
+| Programming & infrastructure | `Python` · `Linux` · `Git` · `Docker` · `FastAPI` |
+| Machine learning | `PyTorch` · `scikit-learn` · `NumPy` · `Pandas` · `Two-Tower Models` |
+| LLM applications | `RAG` · `Function Calling` · `Reranking` · `ChromaDB` · `OpenAI / Gemini / Claude APIs` |
+| Security testing | `Nmap` · `Gobuster` · `Burp Suite` · `Metasploit Framework` |
+| C2 frameworks — lab use | `Havoc` · `AdaptixC2` |
+| Networks & protocols | `TCP/IP` · `DNS` · `HTTP` · `SSH` · `SMB` · `FTP` · `SMTP` · `IMAP` |
+
+*Using a tool in a lab is not the same as claiming production expertise with it.*
+
+</details>
+
+<details>
+<summary><b>NOTE 002 — What I mean by AI Red Team</b></summary>
+
+<br>
+
+I'm interested in how AI applications fail across **model behavior, prompts, retrieval, tools and surrounding infrastructure** — and how those failures can be evaluated systematically.
+
+This is a **research direction I'm working toward**, not a claim that I already hold a professional AI security research position.
+
+</details>
+
+<details>
+<summary><b>NOTE 003 — My approach to a technical problem</b></summary>
+
+<br>
 
 ```text
-hypothesize  →  implement  →  test  →  inspect  →  iterate
+OBSERVE    → What actually happened?
+HYPOTHESIZE → What could explain it?
+TEST       → What would distinguish the explanations?
+RECORD     → What can someone else reproduce?
+ITERATE    → What did the experiment change?
 ```
 
-<details>
-<summary><b>What I value in a project</b></summary>
-<br>
-Clear assumptions, measurable outcomes, useful failure cases, and enough documentation for someone else to reproduce the result.
+The same loop is useful in model development and security research.
+
 </details>
 
 <details>
-<summary><b>What I'm learning next</b></summary>
+<summary><b>NOTE 008 — A small easter egg</b></summary>
+
 <br>
-More rigorous ML evaluation, secure AI application design, adversarial testing, and the engineering practices needed to move experiments into dependable systems.
+
+```text
+$ whoami
+applied_math + ml + security
+
+$ cat mindset.txt
+do not confuse assumptions with evidence
+```
+
 </details>
 
-## `05 // FIND ME`
+### `05 / CONTACT`
 
-<p align="center">
-  <a href="https://github.com/dedessoru">GitHub</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/dedessoru/">LinkedIn</a> &nbsp;·&nbsp;
-</p>
+**[LinkedIn ↗](https://www.linkedin.com/in/dedessoru/)** &nbsp; · &nbsp; **[Repositories ↗](https://github.com/dedessoru?tab=repositories)**
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/signature-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/signature-light.png">
-    <img src="./assets/signature-dark.png" width="260" alt="dedessoru signature">
-  </picture><br>
-  <sub>08 / keep learning; publish the evidence</sub>
-</p>
+<sub>Interested in ML systems, offensive-security labs and eventually the place where the two meet.</sub>
+
+---
+
+<div align="center">
+
+<sub>08 / END OF FIELD NOTES</sub>
+
+<br><br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/signature-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/signature-light.png">
+  <img src="./assets/signature-dark.png" alt="dedessoru — handwritten signature" width="275">
+</picture>
+
+</div>
