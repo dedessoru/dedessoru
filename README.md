@@ -3,7 +3,6 @@
 
 <sub>KYIV, UKRAINE</sub>
 
-<h1>leks.</h1>
 
 <p>
   <code>APPLIED MATHEMATICS</code>
