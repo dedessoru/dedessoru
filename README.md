@@ -37,13 +37,7 @@ I'm drawn toward **AI red teaming** because I want to understand intelligent sys
 
 <br>
 
-### `CONTACT`
 
-[**LinkedIn ↗**](https://www.linkedin.com/in/dedessoru/)
-
-<sub>Always interested in thoughtful conversations about ML, security, and the space between them.</sub>
-
-<br>
 
 ---
 
